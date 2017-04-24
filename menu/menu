@@ -173,18 +173,18 @@ echo "--------------------------------------------------"| lolcat
 clear
 echo "        ====================================================="| lolcat
 echo "        ====================================================="| lolcat
-echo "        #     [SELAMAT DATANG DI VPS YUSUF ARDIANSYAH]      #"| lolcat
+echo "        #        [SELAMAT DATANG DI VPS NAPICUU.NET]        #"| lolcat
 echo "        ====================================================="| lolcat
-echo "        #           WhatsApp     : 082139743432             #"| lolcat
-echo "        #           Telegram     : e-Server                 #"| lolcat
-echo "        #           Facebook     : fb.com/t34mh4ck3r        #"| lolcat
-echo "        #           Pin-BBM      : yu-suf                   #"| lolcat
+echo "        #           WhatsApp     : 082234537749             #"| lolcat
+echo "        #           Telegram     : @eS3rV3r                 #"| lolcat
+echo "        #           Facebook     : fb.com/moch7749          #"| lolcat
+echo "        #           Pin-BBM      : D4FB17CB                 #"| lolcat
 echo "        #                                                   #"| lolcat
-echo "        #        Copyright © yusuf-ardiansyah™  2017        #"| lolcat
+echo "        #    Copyright © e-Server,Dev-Team™ Premium 2017    #"| lolcat
 echo "        ====================================================="| lolcat
 echo ""
 PS3='Silahkan ketik nomor pilihan anda lalu tekan enter: '
-options=("Buat User" "Buat User Trial" "Perbarui User" "Hapus User" "Semua User" "Kill Multy Login" "User Belum Kadaluarsa" "User Sudah Kadaluarsa" "Restart Server" "Ganti Password User" "Ganti Password VPS" "Used Data By Users" "bench-network" "Ram Status" "Bersihkan cache ram" "Monitor Multi Login" "Ganti Port OpenVPN" "Ganti Port Dropbear" "Ganti Port Openssh" "Ganti Port Squid3" "Speedtest" "Quit")
+options=("Buat User" "Buat User Trial" "Perbarui User" "Hapus User" "Semua User" "Kill Multi Login" "User Belum Kadaluarsa" "User Sudah Kadaluarsa" "Restart Server" "Ganti Password User" "Ganti Password VPS" "Used Data By Users" "bench-network" "Ram Status" "Bersihkan cache ram" "Monitor Multi Login" "Ganti Port OpenVPN" "Ganti Port Dropbear" "Ganti Port Openssh" "Ganti Port Squid3" "Speedtest" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -217,7 +217,7 @@ pass=`</dev/urandom tr -dc a-f0-9 | head -c9`
             user-list
             break
             ;;
-	    "Kill Multy Login")
+	    "Kill Multi Login")
 	    #read -p "Batas multy login ketik angka 1 atau 2 (tidak bisa lebih): " batas
 	    #sed -i "s/userlimit.sh [1-9]*/userlimit.sh $batas/g" /etc/crontab
 	    #sed -i "s/userlimitssh.sh [1-9]*/userlimitssh.sh $batas/g" /etc/crontab
