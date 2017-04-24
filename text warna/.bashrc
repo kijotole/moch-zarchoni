@@ -129,7 +129,7 @@ red='\e[1;32m'
 clear
 echo -e $purple "      =====================================================" 
 echo -e $green "      #                                                   #" 
-echo -e $purple "      #      [SELAMAT DATANG DI VPS MOCH ZARCHONI]        #" 
+echo -e $purple "      #      [SELAMAT DATANG DI VPS - MOCH ZARCHONI]      #" 
 echo -e $blue "      #                                                   #" 
 echo -e $green "      #           WhatsApp       : 082234537749           #" 
 echo -e $red "      #           Telegram       : @eS3rV3r               #" 
